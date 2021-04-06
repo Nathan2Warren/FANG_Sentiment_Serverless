@@ -1,6 +1,6 @@
 # Serverless NLP Pipeline
 
-This repository hosts a serverless NLP pipeline used to analyze sentiment. It consists of two lambda functions: producer and consumer. 
+This repository hosts a serverless NLP pipeline used to analyze sentiment. It consists of two lambda functions: *producer* and *consumer*. 
 
 ### Producer
 - This lambda function will read from a DyanmoDB table and send values to SQS. A trigger will need to be set up for this, I made it invoke every minute.
