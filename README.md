@@ -40,6 +40,8 @@ sam deploy--guided
 
 11. Shutdown triggers when finished.
 
+---
+
 ### Additional Considerations
 If you are using a micro EC2 instance, you may not have enough space. There are two options around this. 
 1. Resize your instance using the `resize.sh` file. 
