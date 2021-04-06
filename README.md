@@ -26,7 +26,7 @@ This repository hosts a serverless NLP pipeline used to analyze sentiment. It co
 4. Deploy the SAM lambda application using the following code:
 ```
 sam build --use-container
-sam deploy--guided
+sam deploy --guided
 ```
 5. In AWS Lambda you should now see your producer app. Click the trigger and then click permissions. If you have an IAM role set up, assign it, otherwise you may add policies so that the producer lambda function will be able to run. 
 
