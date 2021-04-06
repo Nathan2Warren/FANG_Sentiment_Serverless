@@ -39,3 +39,12 @@ sam deploy--guided
 10. Check CloudWatch logs to check for errors and your S3 bucket to view the output of the sentiment analysis performed. 
 
 11. Shutdown triggers when finished.
+
+### Additional Considerations
+If you are using a micro EC2 instance, you may not have enough space. There are two options around this. 
+1. Resize your instance using the `resize.sh` file. 
+2. Delete existing irrelevant docker images on C9.
+```
+docker image ls # list docker images
+docker image rm IMAGE_ID IMAGE_ID IMAGE_ID #you can delete multiple images at once
+```
